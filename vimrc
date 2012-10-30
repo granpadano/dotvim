@@ -6,6 +6,7 @@ set shiftwidth=4
 set tabstop=4
 set expandtab
 set autoindent
+let mapleader=","
 
 syntax on
 filetype plugin indent on
@@ -26,12 +27,13 @@ endfunc
 
 map <F3> :NERDTreeFind<CR>
 map <F4> :NERDTreeToggle<CR>
+map <F5> :Tlist<CR> 
 
 "nnoremap <F5> :GundoToggle<CR>
 
 map <F7> :call WriteIfModified()<CR>:make<CR><CR><CR>:cc<CR><CR>
 
-map <F8> :Tlist<CR> 
+"map <F8> :Tlist<CR> 
 
 "map <F9> :!indent -npro -kr -i8 -ts8 -sob -l120 -ss -ncs -cp1 %<CR><CR>
 
