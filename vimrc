@@ -27,9 +27,10 @@ endfunc
 
 map <F3> :NERDTreeFind<CR>
 map <F4> :NERDTreeToggle<CR>
+
 map <F5> :Tlist<CR> 
 
-"nnoremap <F5> :GundoToggle<CR>
+nnoremap <F5> :GundoToggle<CR>
 
 map <F7> :call WriteIfModified()<CR>:make<CR><CR><CR>:cc<CR><CR>
 
