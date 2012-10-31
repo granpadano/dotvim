@@ -22,3 +22,12 @@
 [submodule "bundle/yankring"]
 	path = bundle/yankring
 	url = https://github.com/vim-scripts/YankRing.vim.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "bundle/searchcomplete"]
+	path = bundle/searchcomplete
+	url = https://github.com/vim-scripts/SearchComplete.git
+[submodule "bundle/showmarks"]
+	path = bundle/showmarks
+	url = https://github.com/vim-scripts/ShowMarks.git
