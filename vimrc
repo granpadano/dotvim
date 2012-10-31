@@ -24,6 +24,8 @@ filetype plugin indent on
 "omnicompletion
 "set ofu=syntaxcomplete#Complete
 
+colorscheme wombat
+
 set tags+=~/.vim/tags/stl
 
 func! WriteIfModified()
