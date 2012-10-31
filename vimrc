@@ -19,6 +19,9 @@ set encoding=utf-8 " Necessary to show Unicode glyphs
 syntax on
 filetype plugin indent on
 
+"omnicompletion
+set ofu=syntaxcomplete#Complete
+
 set tags+=~/.vim/tags/stl
 
 func! WriteIfModified()
@@ -36,7 +39,7 @@ nnoremap <F6> :GundoToggle<CR>
 
 map <F10> :call WriteIfModified()<CR>:make<CR><CR><CR>:cc<CR><CR>
 
-map <F11> :!indent -npro -kr -i8 -ts8 -sob -l120 -ss -ncs -cp1 %<CR><CR>
+"map <F11> :!indent -npro -kr -i8 -ts8 -sob -l120 -ss -ncs -cp1 %<CR><CR>
 
 map <F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR><CR><CR>
 
