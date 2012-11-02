@@ -34,6 +34,10 @@ func! WriteIfModified()
     endif
 endfunc
 
+nnoremap <C-J> m`o<Esc>``
+nnoremap <C-K> m`O<Esc>``
+noremap ù `
+
 map <F3> :NERDTreeFind<CR>
 map <F4> :NERDTreeToggle<CR>
 
