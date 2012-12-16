@@ -72,6 +72,7 @@ map <F5> :Tlist<CR>
 nnoremap <F6> :GundoToggle<CR>
 
 map <F10> :call WriteIfModified()<CR>:make<CR><CR><CR>:cc<CR><CR>
+map <F11> :call WriteIfModified()<CR>:make show<CR><CR><CR>:cc<CR><CR>
 
 "map <F11> :!indent -npro -kr -i8 -ts8 -sob -l120 -ss -ncs -cp1 %<CR><CR>
 
