@@ -1,0 +1,7 @@
+# put here files to be automatically ignored by git
+*.tmp
+*.log
+*.make
+*.swp
+*~
+
