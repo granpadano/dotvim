@@ -60,6 +60,9 @@ nnoremap <C-J> m`o<Esc>``
 nnoremap <C-K> m`O<Esc>``
 noremap ù `
 
+" clear highlighted search by hitting ESC
+nnoremap <esc> :noh<return><esc>
+
 nnoremap <leader>id "=strftime("%y/%m/%d")<CR>p
 nnoremap <leader>ih :r ~/.vim/header<CR>kddm`:/=====*<CR>v``:call NERDComment('v','Sexy')<CR>
 nnoremap <leader>fh :call FillHeader()<CR> 
