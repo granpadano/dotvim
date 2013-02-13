@@ -63,6 +63,12 @@ noremap ù `
 " clear highlighted search by hitting ESC
 nnoremap <esc> :noh<return><esc>
 
+" easy window switching using Alt + <arrow>
+nmap <silent> <A-Up> :wincmd k<CR>
+nmap <silent> <A-Down> :wincmd j<CR>
+nmap <silent> <A-Left> :wincmd h<CR>
+nmap <silent> <A-Right> :wincmd l<CR>
+
 nnoremap <leader>id "=strftime("%y/%m/%d")<CR>p
 nnoremap <leader>ih :r ~/.vim/header<CR>kddm`:/=====*<CR>v``:call NERDComment('v','Sexy')<CR>
 nnoremap <leader>fh :call FillHeader()<CR> 
