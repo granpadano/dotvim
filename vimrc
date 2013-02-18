@@ -31,6 +31,9 @@ let g:NERDCustomDelimiters = {
         \ 'python': { 'left': '#', 'leftAlt': '#', 'rightAlt': '#' },
     \ }
 
+" disable ATP project file
+let g:atp_ProjectScript = 0
+let b:atp_Viewer = "evince"
 
 colorscheme wombat
 
