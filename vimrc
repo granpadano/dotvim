@@ -34,9 +34,9 @@ let g:NERDCustomDelimiters = {
 " disable ATP project file
 let g:atp_ProjectScript = 0
 " set evince as default pdf viewer
-let b:atp_Viewer = "evince"
+let g:atp_Viewer = "evince"
 " disable synctex
-let b:atp_TexOptions	= "-synctex=0"
+let g:atp_TexOptions	= "-synctex=0"
 
 colorscheme wombat
 
