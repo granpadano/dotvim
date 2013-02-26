@@ -34,3 +34,6 @@
 [submodule "bundle/automaticlatex"]
 	path = bundle/automaticlatex
 	url = https://github.com/vim-scripts/AutomaticLaTexPlugin.git
+[submodule "bundle/fugitive"]
+	path = bundle/fugitive
+	url = https://github.com/vim-scripts/fugitive.vim.git
