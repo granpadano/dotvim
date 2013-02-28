@@ -22,6 +22,10 @@ let showmarks_enable=0
 syntax on
 filetype plugin indent on
 
+"set guioptions-=m  "remove menu bar
+set guioptions-=T  "remove toolbar
+set guioptions-=r  "remove right-hand scroll bar
+
 "omnicompletion
 "set ofu=syntaxcomplete#Complete
 
