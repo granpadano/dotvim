@@ -42,6 +42,9 @@ let g:atp_Viewer = "evince"
 " disable synctex
 let g:atp_TexOptions	= "-synctex=0"
 
+"EasyMotion trigger key
+let g:EasyMotion_leader_key = ';'
+
 colorscheme wombat
 
 set tags+=~/.vim/tags/stl
