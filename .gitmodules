@@ -37,3 +37,6 @@
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = https://github.com/vim-scripts/fugitive.vim.git
+[submodule "bundle/shymenu"]
+	path = bundle/shymenu
+	url = https://github.com/tomtom/shymenu_vim.git
