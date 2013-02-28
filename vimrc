@@ -45,6 +45,9 @@ let g:atp_TexOptions	= "-synctex=0"
 "EasyMotion trigger key
 let g:EasyMotion_leader_key = ';'
 
+" Yankring history file directory
+let g:yankring_history_dir = '.vim'
+
 colorscheme wombat
 
 set tags+=~/.vim/tags/stl
