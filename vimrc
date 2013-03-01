@@ -46,7 +46,7 @@ let g:atp_TexOptions	= "-synctex=0"
 let g:EasyMotion_leader_key = ';'
 
 " Yankring history file directory
-let g:yankring_history_dir = '.vim'
+let g:yankring_history_dir = '~/.vim'
 
 colorscheme wombat
 
