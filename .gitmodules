@@ -40,6 +40,3 @@
 [submodule "bundle/shymenu"]
 	path = bundle/shymenu
 	url = https://github.com/tomtom/shymenu_vim.git
-[submodule "bundle/easymotion"]
-	path = bundle/easymotion
-	url = git://github.com/Lokaltog/vim-easymotion.git
